@@ -7,8 +7,18 @@
 
 # # print(len(distinct_powers)
 
-i = 0
-while i < 1000000000000:
-     i += 1
+# i = 0
+# while i < 10000:
+#      i += 1
 
-print("Largest_Order")
+# print("Largest_Order")
+
+import time 
+
+start = time.time()
+
+i = 0
+while time.time() - start < 10:
+    i += 1
+
+print(i)
