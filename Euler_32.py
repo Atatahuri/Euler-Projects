@@ -1,5 +1,4 @@
 # #Euler 32
-import os
 unique_products = set()  # Use a set to avoid duplicates
 
 # Check if a number string is 1-9 pandigital
@@ -19,4 +18,4 @@ for multiplicand in range(1, 100):
 # Compute the sum of unique products
 result = sum(unique_products)
 print("Sum of all pandigital products:", result)
-print("Current file path:", os.path.abspath(__file__))
+
